@@ -1,0 +1,10 @@
+
+.sidebar {
+    -fx-padding: 15;
+    -fx-spacing: 10;    
+    -fx-background-color: #FF9900;    
+    -fx-border-color: #333300;
+    -fx-border-width: 2px;
+    -fx-padding: 10;
+    -fx-spacing: 8;
+}
