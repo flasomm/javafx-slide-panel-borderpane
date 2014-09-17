@@ -25,7 +25,7 @@ public class Main extends Application {
     public void start(Stage stage) {
         Scene scene = new Scene(new Group());
         scene.getStylesheets().add(STYLESHEET_PATH);
-        stage.setTitle("Table View Favorite Sample");
+        stage.setTitle("BorderPane Slides In And Out on Command Sample");
         stage.setWidth(600);
         stage.setHeight(431);
 
