@@ -2,9 +2,13 @@
 .sidebar {
     -fx-padding: 15;
     -fx-spacing: 10;    
-    -fx-background-color: #FF9900;    
-    -fx-border-color: #333300;
-    -fx-border-width: 2px;
+    -fx-background-color: #585858;    
+    -fx-border-color: #FFFFFF;
+    -fx-border-width: 1px;
     -fx-padding: 10;
     -fx-spacing: 8;
+}
+
+.sidebar  .label {
+    -fx-text-fill: white;
 }
