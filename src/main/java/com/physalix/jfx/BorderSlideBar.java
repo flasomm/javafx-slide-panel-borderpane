@@ -42,8 +42,7 @@ public class BorderSlideBar extends VBox {
      * @param location The location of the panel (TOP_LEFT, BOTTOM_LEFT, BASELINE_RIGHT, BASELINE_LEFT).
      * @param nodes Nodes inside the panel.
      */
-    public BorderSlideBar(double expandedSize,
-            final Button controlButton, Pos location, Node... nodes) {
+    public BorderSlideBar(double expandedSize, final Button controlButton, Pos location, Node... nodes) {
 
         getStyleClass().add("sidebar");
         getStylesheets().add(CSS);        
@@ -103,12 +102,10 @@ public class BorderSlideBar extends VBox {
                     }
                 });
 
-                if (showPanel.statusProperty().get() == Animation.Status.STOPPED
-                        && hidePanel.statusProperty().get() == Animation.Status.STOPPED) {
+                if (showPanel.statusProperty().get() == Animation.Status.STOPPED && hidePanel.statusProperty().get() == Animation.Status.STOPPED) {
 
                     if (isVisible()) {
                         hidePanel.play();
-
                     } else {
                         setVisible(true);
                         showPanel.play();
